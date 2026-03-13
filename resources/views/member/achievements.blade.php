@@ -1,4 +1,4 @@
-w@extends('layouts.app')
+@extends('layouts.app')
 
 @section('title', 'Member Achievements')
 @section('page-title', 'My Achievements')
