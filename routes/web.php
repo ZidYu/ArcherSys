@@ -9,7 +9,7 @@ use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\ProfileController;
 
 Route::get('/', function () {
-    return redirect()->route('login');
+    return redirect()->route('login.blade.php');
 });
 
 Route::get('/login', function () {
